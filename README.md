@@ -9,7 +9,8 @@ Data lengkap dari tingkat provinsi hingga desa, dengan dukungan **foreign key co
 
 ## 🗂️ Struktur Tabel
 
-Setiap wilayah menggunakan kode dari wilayah di atasnya sebagai bagian dari **foreign key**.
+Setiap wilayah menggunakan kode dari wilayah di atasnya. \
+Namun saya tambahkan auto-increment unique id sebagai identifier karena kode kabupaten ke bawah banyak memiliki kesamaan.
 
 ```
 provinsi (kode)
